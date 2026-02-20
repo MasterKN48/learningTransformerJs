@@ -535,9 +535,14 @@ function App() {
 
       <footer className="mt-20 pt-8 border-t border-white/5 flex justify-between items-center text-slate-500 text-[11px] font-bold uppercase tracking-widest">
         <span>&copy; 2026 Transformers.js Labs</span>
-        <div className="flex gap-6">
-          <a href="#" className="hover:text-indigo-400 transition-colors">
-            Privacy
+        <div className="flex items-center gap-6">
+          <a
+            href="https://github.com/MasterKN48/learningTransformerJs#readme"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-400 hover:text-white transition-colors"
+          >
+            Documentation
           </a>
           <a href="#" className="hover:text-indigo-400 transition-colors">
             Documentation
